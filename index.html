@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Maker</title>
+</head>
+<body>
+    <header>
+       Welcome to my certificate maker
+    </header>
+    <main>
+      <h1>Enter your name</h1>
+      <div class="searchbox">
+        <input type="text" class="search" id="name" name="name" placeholder="Enter Fullname here"/>
+        <button id="submitbut"> Download the Certificate</button>
+        <button id="previewbut"> Preview</button>
+
+        
+        </div>       
+    <iframe id="merapdf" class="responsive-iframe" height="864px" width="1519px" frameborder="0"></iframe>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit"></script>
+    <script src="filesaver.js"></script>
+    <script src="index.js"></script>
+    
+    </main>
+    
+</body>
+</html>
