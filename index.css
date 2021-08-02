@@ -3,31 +3,39 @@
 *{
     margin: 0;
     padding: 0;
-background-color: red;
-box-sizing: border-box;
+    
+    box-sizing: border-box;
 }
+
+body{
+    background-image: linear-gradient(to right, #3CA55C,#B5AC49);
+}
+
 
 header{
     position: relative;
-    font-size:60px;
+    font-size:80px;
     margin: 50px;
     font-weight:800;
     text-align: center;
-    color: yellow;
+    color: rgb(187, 255, 0);
     font-family: 'Lobster', cursive;
+    text-shadow: 6px 4px rgb(25, 0, 255);
+    
     
 }
 
 main h1{
-    color: yellow;
+    color: rgb(200, 255, 0);
     text-align: left;
     margin: 25px;
     font-family: 'Carter One', cursive;
+    text-shadow: 6px 4px black;
     
 }
 .searchbox{
-    width: 100%;
-    margin: 0 0 74px;
+    width: 40%;
+    margin: 10px 0 74px;
 }
 
 .searchbox .search{
@@ -36,13 +44,14 @@ main h1{
     width: 100%;
     padding: 15px;
     appearance: none;
-    background: yellow;
+    background: rgb(42, 56, 55);
     border: none;
     font: size 100px;
-    color: black;
+    color: rgb(96, 250, 250);
     transition: 0.4 ease-out;
     box-shadow: 0 0 40px;
     border-radius: 16px 16px 16px 16px;
+    margin-left: 20px;
     
     
 
@@ -54,13 +63,13 @@ main h1{
 }
 
 .searchbox button{
-    background-color:yellow !important;
+    background-color:rgb(42, 56, 55) !important;
     margin: 40px;
     font-size: 20px;
     padding: 15px;
     font-weight: 800;
-    color: black;
-    box-shadow: 0 0 16px;
+    color: rgb(251, 255, 0);
+    box-shadow: 0 0 30px;
     border-radius: 16px 0 16px 0;
     
 
@@ -80,4 +89,12 @@ main iframe {
     position: relative;
   width: 100%;
   
+}
+
+.extra h1{
+    font-size:50px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Lobster', cursive;
+    text-shadow: 6px 4px rgb(4, 0, 255);
 }
